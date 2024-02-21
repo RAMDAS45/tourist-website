@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px; 
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 2px 0.5px 6px black;
+}
+.main{
+    background-image: url(iamges/page1.jpg);
+    background-position :bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+span{
+    color: #149C9E;
+}
+nav .nav-2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.nav-1 h1{
+    font-size: 40px;
+    color: black;
+}
+.nav-2 li a{
+    font-size: 20px;
+    color: #149C9E;
+    font-weight: bolder;
+    font-weight: 400;
+}
+.nav-2 i{
+   display: none;
+}
+.nav-2 li a:hover{
+    border-bottom: 1px solid black;
+    transition: 1s ease-in-out;
+}
+.text-1{
+    position: relative;
+    padding-top: 10%;
+    width: 80%;
+    padding-left: 18%;
+}    
+.text-1 h1{
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    word-spacing: 15px;
+}
+.text-1 p{
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 20px;
+}
+.text-box{
+    height: 220px;
+    width: 50%;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid white;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 5%;  
+}
+.text-box p{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.input-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    padding-left: 10%;
+    padding-top: 40px;
+}
+.input-box input{
+    height: 20px;
+    width: 200px;
+    border: 1px white solid;
+    padding: 15px 20px;
+    background-color: transparent;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+}
+.input-box button{
+    border: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #149C9E;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.input-box button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+::-webkit-calender-picker-indicator{
+    filter: invert(1);
+}
+.text-box-2 h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: #149C9E;
+}
+.text-box-2 h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.second-page{
+    position: relative;
+}
+.images{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    gap: 50px;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.images img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    cursor: pointer;
+    object-position: center;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);  
+}
+.images img:hover{
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+    
+}
+.info h4{
+    position: absolute;
+    top: 51%;
+    left: 40px;
+    background-color: white;
+    padding: 3px 10px;
+}
+
+.info .bangarm{
+    position: absolute;
+    top: 51%;
+    left: 520px;
+}
+.info .kavaratti{
+    position: absolute;
+    top: 51%;
+    left: 52.8%;
+}
+.info .minicoy{
+    position: absolute;
+    top: 51%;
+    left: 78%;
+}
+.info .kalpeni{
+    position: absolute;
+    top: 96%;
+    left: 40px;
+}
+.info .marine{
+    position: absolute;
+    top: 96%;
+    left: 520px;
+}
+.info .kadmat{
+    position: absolute;
+    top: 96%;
+    left: 52.8%;
+}
+.info .Andretti{
+    position: absolute;
+    top: 96%;
+    left: 78%;
+}
+.third-page{
+    background-image: url(iamges/services-bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    background-attachment: fixed;
+}
+.text-box-3{
+    text-align: center;
+    color: white;
+
+}
+.text-box-3 h2{
+    font-weight: 400;
+    padding-top: 5%;
+}
+.text-box-3 h1{
+    font-weight: 600;
+    padding-top: 30px;
+    color: black;
+    text-decoration: overline;
+}
+.containt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10%;
+}
+.hotel{
+    text-align: center;
+    width: 20%;
+}
+.Travel{
+    text-align: center;
+    width: 20%;
+}
+.price{
+    text-align: center;
+    width: 20%;
+}
+.containt h2{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    padding: 10px 15px; 
+    color: black;
+    opacity: 0.9;
+    border: 2px solid white;
+    margin-bottom: 5%;
+}
+.containt p{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    padding: 35px;
+    font-weight: 600;
+    font-weight: 800;
+    border: 1px solid white;
+}
+.third-page button{
+    border: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #149C9E;
+    color: white;
+    transition: 0.3s ease-in-out;
+    margin-top: 25px;
+}
+.third-page button:hover{
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.text-box-4{
+    text-align: center;
+    margin-top: 30px;
+}
+.text-box-4 h3{
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    color: gray;
+}
+.text-box-4 h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.box1{
+    height: 300px;
+    width: 450px;
+    background-color: white;
+    padding: 20px 20px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.video1{
+    /* border-top: 5px solid #149C9E;
+    border-bottom:5px solid #149C9E ; */
+    height: 850px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 20px;
+    height: 250px;
+    padding: 15px;
+}
+.f1{
+    width: 20%;
+}
+.f1 h2{
+    font-size: 30px;
+    padding-bottom: 35px;
+}
+.f1 p{
+   font-size: 18px;
+}
+.f2 h3{
+    font-size: 25px;
+}
+.f2 i{
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 35px;
+}
+.f3 h3{
+    font-size: 25px;
+    padding-bottom: 35px;
+}
+.f3 p{
+    font-size: 18px;
+    padding: 2px;
+}
+.f4 h3{
+    font-size: 25px;
+    padding-bottom: 35px;
+}
+.f4 input{
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 6px 0px;
+}
+.f4 button{
+    background-color: #149C9E;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 5px 74px;
+    margin-top: 10px;
+}
+.f4 input::placeholder{
+    color: gray;
+    font-size: 15px;
+    padding-left: 5px;
+
+}
+.f2 a{
+    color: white;
+}
+
+/* media query */
+

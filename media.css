@@ -1,0 +1,119 @@
+@media screen and (max-width:600px){
+    .third-page{
+        background-size: cover;
+        background-position: center;
+    }
+    html{
+        width: 100%;
+    }
+    .nav-1 h1{
+        display: flex;
+        font-size: 35px;
+        padding: 0%;
+    }
+    .main{
+        background-position: center;
+        background-size: cover;
+        min-width: 110vh;
+    }
+    nav{
+        padding: 35px;
+        position: fixed;
+        z-index: 1;
+    }
+    .nav-2 li a{
+        display: none;
+    }
+    .nav-2 i {
+        display: block;
+        font-size: 40px;
+        color: #149C9E;
+    }
+    .text-1 h1{
+        font-size: 50px;
+        padding-top: 80px;
+        text-align: center;
+    }
+    .input-box{
+        height: 300px;
+        width: 300px;
+    }
+    .text-box{
+        height: 200px;
+        width: 700px;
+        margin-left: 9%;
+        margin-bottom: 5%;
+    }
+    .text-box p{
+        position: absolute;
+        left: 30%;
+    }
+    .input-box input{
+        height: 15px;
+        width: 160px;
+    }
+    .input-box{
+        margin-left: 23%;
+        padding-top: 20px;
+    }
+    .text-box-2{
+        min-width: 100vh;
+    }
+    .images{
+        min-width: 100vh;
+        display: grid;
+        grid-template-columns: 600px; 
+        margin-bottom: 10%;     
+    }
+    .second-page{
+        display: relative;
+    }
+    .images img{
+        height: 700px;
+        width: 600px;
+    }
+    .info{
+        display: none;
+    }
+    .third-page{
+        min-width: 108vh;
+    }
+    .containt{
+        padding-top: 10%;
+    }
+    .containt p{
+        padding: 10px;
+    }
+    .fourth-page{
+        min-width: 108vh;
+    }
+    .boxes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .box1{
+        height: 430px;
+        width: 250px;
+        gap: 20px;
+        padding: 20px;
+    }
+    video{
+        min-width: 108vh;  
+    }
+    footer{
+        min-width: 108vh;
+        min-height: 75vh;
+        display: grid;
+        grid-template-columns: 250px 250px;
+        justify-content: space-between;  
+    }
+    .f1{
+        width: 100%;
+    }
+    .f4 input{
+        font-size: 15px;
+    }
+    .f2{
+        width: 100%;
+    }
+}
